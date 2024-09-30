@@ -88,10 +88,15 @@ print("B: July 4, 1776")
 print("C: Febuary 6, 1779") 
 print("D: March 8, 1772") 
 
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
 if u == "B":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
 
 print("Question 7: __________ is the strong sense of loyalty to a state or section instead of a country.")
 # Sectionalism
