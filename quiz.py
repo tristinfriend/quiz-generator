@@ -5,6 +5,10 @@ By Tristin Friend
 Due 09/30/2024
 '''
 
+numCorrect = 0
+numQuestion = 0
+
+
 # Begining of quiz
 print("Welcome to your history quiz! This quiz will consist of 15 questions. Are you ready? ")
 
@@ -12,17 +16,70 @@ print("Welcome to your history quiz! This quiz will consist of 15 questions. Are
 print("Question 1: What is the shorest war in recorded history?")
 # The Anglo-Zanibar War of 1896, lasting only 30 minutes
 
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Anglo-Zanibar War":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
 print("Question 2: What was the first living creature to enter space?")
 # It was a dog named Laika. 
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Laika":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
 
 print("Question 3: Who was the longest ruling monarch in Enlish history?")
 # Queen Elizabeth II, ruling for 66 years. 
 
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Queen Elizabeth II":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
+
 print("Question 4: Which famous Egyptian leader was actually Greek?")
 # Cleopatra
 
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Cleopatra":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
 print("Question 5: In the British colony of Jamestown, what was the their greatest cashcrop?")
 # tabacco 
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "tabacco":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
 
 print("Question 6: The Declaration of Independence was sign on _________.")
 # July 4, 1776
@@ -30,7 +87,15 @@ print("A: October 4, 1786")
 print("B: July 4, 1776")
 print("C: Febuary 6, 1779") 
 print("D: March 8, 1772") 
-user_response = input(": July 4, 1776")
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "B":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
 
 
 print("Question 7: __________ is the strong sense of loyalty to a state or section instead of a country.")
@@ -40,12 +105,36 @@ print("B: Manifest Destiny")
 print("C: Unalienable Rights")
 print("D: Sectionalism")
 
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "D":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
+
 print("Question 8: _____________ were people who opposed the Constitution.")
 # Antifederalists
 print("A: Federalists")
 print("B: Republicans")
 print("C: Antifederalists")
 print("D: Tories") 
+
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "C":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
 
 print("Question 9: The ___________ was one of the biggest influences on the Constitution.")
 # Magna Carta
@@ -54,6 +143,18 @@ print("B: Magna Carta")
 print("C: Articles of Confederation")
 print("D: Monroe Docterine") 
 
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "B":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
+
 print("Question 10: After King ____________ refused the Olive Branch Petition, the colonies finally broke away from England.")
 # George III
 print("A: George III")
@@ -61,19 +162,84 @@ print("B: George Washington")
 print("C: Alfred")
 print("D: Peter") 
 
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "A":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
+
 print("Question 11: Famous philospher __________ personally taught Alexander the Great.")
 # Aristotle
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Aristotle":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
 
 print("Question 12: __________ cities were named after Alexander the Great.")
 # 70
 
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "70":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
 print("Question 13: The __________ dynasty in China outlawed sea trade.")
 # Ming Dynasty
+
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Ming Dynasty":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
 
 print("Question 14: _________ founded the Akkadian Empire.")
 # Sargon the Great
 
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Sargon the Great":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
 print("Question 15: The Kingdom of _________ gave early rise to the Abrahamic religion.")
 # Israel
 
+
+u = input(":") 
+u = u.upper()
+u = u.strip()
+
+if u == "Israel":
+    print("Correct")
+    numCorrect = numCorrect + 1
+numQuestion = numQuestion +1
+
 # End of quiz
+
+print(f"The number you got correct was: {numCorrect}")
+
+score = numCorrect/numQuestion * 100
+
+print(f"Your score is: {score:.0f}")
