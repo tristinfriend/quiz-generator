@@ -30,7 +30,6 @@ print("A: October 4, 1786")
 print("B: July 4, 1776")
 print("C: Febuary 6, 1779") 
 print("D: March 8, 1772") 
-user_response = input(": July 4, 1776")
 
 
 print("Question 7: __________ is the strong sense of loyalty to a state or section instead of a country.")
@@ -77,3 +76,4 @@ print("Question 15: The Kingdom of _________ gave early rise to the Abrahamic re
 # Israel
 
 # End of quiz
+
