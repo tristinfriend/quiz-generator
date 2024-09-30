@@ -20,10 +20,11 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Anglo-Zanibar War":
+if u == "ANGLO-ZANIBAR WAR":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
 
 
 print("Question 2: What was the first living creature to enter space?")
@@ -33,7 +34,7 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Laika":
+if u == "LAIKA":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
@@ -48,7 +49,7 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Queen Elizabeth II":
+if u == "QUEEN ELIZABETH II":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
@@ -62,10 +63,11 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Cleopatra":
+if u == "CLEOPATRA":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
 
 
 print("Question 5: In the British colony of Jamestown, what was the their greatest cashcrop?")
@@ -75,10 +77,11 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "tabacco":
+if u == "TABACCO":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
 
 
 print("Question 6: The Declaration of Independence was sign on _________.")
@@ -96,6 +99,7 @@ if u == "B":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
 
 
 print("Question 7: __________ is the strong sense of loyalty to a state or section instead of a country.")
@@ -172,6 +176,7 @@ if u == "A":
 numQuestion = numQuestion +1
 
 
+
 print("Question 11: Famous philospher __________ personally taught Alexander the Great.")
 # Aristotle
 
@@ -179,10 +184,11 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Aristotle":
+if u == "ARISTOTLE":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
 
 
 print("Question 12: __________ cities were named after Alexander the Great.")
@@ -197,6 +203,8 @@ if u == "70":
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
 
+
+
 print("Question 13: The __________ dynasty in China outlawed sea trade.")
 # Ming Dynasty
 
@@ -205,10 +213,12 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Ming Dynasty":
+if u == "MING DYNASTY":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
+
 
 print("Question 14: _________ founded the Akkadian Empire.")
 # Sargon the Great
@@ -218,10 +228,12 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Sargon the Great":
+if u == "SARGON THE GREAT":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
+
 
 print("Question 15: The Kingdom of _________ gave early rise to the Abrahamic religion.")
 # Israel
@@ -231,10 +243,13 @@ u = input(":")
 u = u.upper()
 u = u.strip()
 
-if u == "Israel":
+if u == "ISRAEL":
     print("Correct")
     numCorrect = numCorrect + 1
 numQuestion = numQuestion +1
+
+print(f"Number correct = {numCorrect}")
+
 
 # End of quiz
 
@@ -242,4 +257,16 @@ print(f"The number you got correct was: {numCorrect}")
 
 score = numCorrect/numQuestion * 100
 
-print(f"Your score is: {score:.0f}")
+print(f"Your score is: {numCorrect}/{numQuestion} ({score:.0f}%)")
+
+
+if (score >= 90):
+    print("A")
+elif (score >= 80):
+    print("B")
+elif (score >= 70): 
+    print("C") 
+elif (score >= 60): 
+    print("D") 
+else: 
+    print("F") 
